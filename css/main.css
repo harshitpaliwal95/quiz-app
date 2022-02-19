@@ -13,6 +13,7 @@ body {
     #302b63,
     #0f0c29
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
 }
 
 main {
@@ -21,16 +22,18 @@ main {
   align-items: center;
 }
 
-.qizz-heading {
+/* navbar items */
+.nav-item a {
+  background-color: transparent;
   color: white;
-  margin: 2rem 0 5rem 0;
 }
+
 .card-top-img {
   height: 22rem;
 }
 .grid-two {
   gap: 4rem;
-  padding-bottom: 7rem;
+  padding: 5rem;
 }
 
 .card-component {

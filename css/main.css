@@ -15,7 +15,9 @@ body {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
-
+:root {
+  --box-shadow-quiz: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+}
 main {
   display: flex;
   flex-direction: column;
@@ -44,25 +46,25 @@ main {
   transition: 0.4s ease-in-out;
 }
 .luffy-card:hover {
-  box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+  box-shadow: var(--box-shadow-quiz);
 }
 
 .naruto-card {
   transition: 0.4s ease-in-out;
 }
 .naruto-card:hover {
-  box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+  box-shadow: var(--box-shadow-quiz);
 }
 
 .card-h2 {
   color: white;
 }
 .card-h3 {
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.4rem;
 }
 
 @media only screen and (max-width: 600px) {
   .ui-nav {
-    margin: 0;
+    margin: 0.6rem;
   }
 }
